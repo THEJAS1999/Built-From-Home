@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form Design</title>
-    <link rel="stylesheet" type="text/css" href="/bfh/static/css/index.css">
-
+    <title>Homepage</title>
+    <link rel="stylesheet" href="static/css/index.css">    
 </head>
 <body>
-   <div class="loginbox" >
-    <img src="avatar.png" class="avatar">
-       <h1>Login Here</h1>
-       <form action="">
-           <p>UserName</p>
-           <input type="text" name="" placeholder="Enter Username" >
-           <p>Password</p>
-           <input type="password" name="" placeholder="Enter Passsword">
-           <input type="submit" name="" value="Login">
-           <a href="#">Lost Your Passsword?</a><br>
-           <a href="#">Don't have an Account</a>
-       </form>
-   </div> 
-    
+    <header>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="static/images/homelogo.jpg" alt="">
+        </div>
+<ul class="nav-area">
+<li><a href="index.html">Home</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+<div class="welcome-text">
+        <h1>
+            Upload Your <span>Audio</span></h1>
+<input type="file" id="file" name="myfile"><br>
+<label for="file"><img src="static/images/audicon.png" alt="">
+    &nbsp;
+     <b>Choose an Audio</b>
+</label>
+    </div>
+</header>
+
 </body>
 </html>
