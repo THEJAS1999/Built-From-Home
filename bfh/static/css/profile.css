@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     color: #3c3939;
-    background: url("bg12.jpg");
+    background: url("/bfh/static/images/bg12.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -63,7 +63,7 @@ body{
 }
 
 .main-container img{
-    width=20px;
+    width: 20px;
     height: 20px;
 }
 
