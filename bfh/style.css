@@ -72,7 +72,7 @@ h1{
 
 }
 
-.login input[type="submit"]:hover
+.loginbox input[type="submit"]:hover
 {
     cursor: pointer;
     background: #ffc107;
