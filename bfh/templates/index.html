@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
-    <link rel="stylesheet" href="/bfh/static/css/index.css">    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">    
 </head>
 <body>
     <!-- Firebase API -->
@@ -20,7 +20,7 @@
     <header>
     <div class="wrapper">
         <div class="logo">
-            <img src="/bfh/static/images/homelogo.jpg" alt="">
+            <img src="/static/images/homelogo.jpg" alt="">
         </div>
 <ul class="nav-area">
 <li><a href="index.html">Home</a></li>
@@ -33,7 +33,7 @@
         <h1>
             Upload Your <span>Audio</span></h1>
 <input type="file" id="file" name="myfile"><br>
-<label for="file"><img src="/bfh/static/images/audicon.png" alt="">
+<label for="file"><img src="/static/images/audicon.png" alt="">
     &nbsp;
      <b>Choose an Audio</b>
 </label>
